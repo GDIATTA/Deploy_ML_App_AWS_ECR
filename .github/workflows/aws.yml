@@ -28,7 +28,7 @@ jobs:
       id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: test_ml_demo
+        ECR_REPOSITORY: test_ml_demon
         IMAGE_TAG: test_ml_image
       run: |
         # Build a docker container and
